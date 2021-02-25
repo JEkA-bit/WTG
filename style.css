@@ -1,0 +1,115 @@
+body{
+    position: relative;
+    margin: 0;
+    font-family: "Comic Sans MS";
+    background-image: url("./background.jpg");
+}
+
+form{
+    background-color: white;
+    float: right;
+    position: relative;
+    margin: 0;
+    height: 1000px;
+    width: 30%;
+    text-shadow: 10px 10px 10px black;
+    text-align: center;
+    border-left: 10px double orange;
+}
+
+#RegistrationText{
+    text-align: center;
+    font-size: 40px;
+}
+
+#HelloText{
+    float: left;
+    font-family: "Comic Sans MS";
+    text-align: center;
+    font-size: 80px;
+    color:white;
+    width: 50%;
+    margin-left: 9%;
+    margin-top: 15%;
+}
+
+input{
+    text-align: center;
+    margin-bottom: 5%;
+    background-color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    transition: 0.5s;
+}
+
+button{
+    background-color: burlywood;
+    padding: 3%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 50px #000;
+    border: none;
+    font-size: 150%;
+    color: white;
+    width: 30%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+input:focus{
+    outline: none;
+    border-bottom: 2px solid blue;
+}
+
+table{
+    margin: 0 auto;
+    border: 1px solid #FFF;
+    color: white;
+    width: 75%;
+    text-align: center;
+}
+
+tbody{
+    background: white;
+    color: black;
+    padding: 10%;
+    border: none;
+    padding: 10%;
+}
+
+tr{
+    height: 50px;
+}
+
+tbody td{
+    border: none;
+}
+
+td{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#commandblock{
+    width: 75%;
+    border: 1px solid white;
+    margin: 0 auto;
+    align-items: center;
+}
+
+#search{
+    margin: 50px;
+}
+
+input[type=button]{
+    font-family: "Comic Sans MS";
+    margin-left: 100px;
+    width: 100px
+}

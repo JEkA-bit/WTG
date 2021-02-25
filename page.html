@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body onload="load()">
+    <div id="commandblock" >
+        <input title="search by Email" onkeydown="change()" onkeyup="change()" type="text" id="search">
+        <input value="Add" type="button" id="add" onclick="add()">
+        <input value="Sub" type="button" id="sub" onclick="deleteAll()">
+        <input value="Edit" type="button" id="edit" onclick="editpage()">
+    </div>
+
+    <table id="table" onload="load()">
+    </table>
+</body>
+</html>
